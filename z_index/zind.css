@@ -1,0 +1,17 @@
+div{
+    height: 200px;
+    width: 200px;
+    position:relative ;
+    border: 2px solid black;
+    display: inline-block;
+}
+#d1{
+    background-color: aqua;
+    left: 30px;
+    z-index: 1;
+}
+#d2{
+    background-color: pink;
+    top: 30px;
+    
+}

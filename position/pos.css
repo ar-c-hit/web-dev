@@ -1,0 +1,17 @@
+div{
+    height: 20vh;
+    width: 20vw;
+    background-color: aqua;
+    display: inline-block;
+    border: 5px solid navy;
+    
+}
+#box1{
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+#box2{
+    position: relative;
+    right: 10px;
+}

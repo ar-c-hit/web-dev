@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    height: 100px;
+    width: 300px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: red;/* 
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function:steps(5); */
+    /* transition-delay: 1s;    to delay the transition*/
+    /* short hand     transition: property duration timingfunction delay */
+    transition: all 1s linear;
+    /* transform: rotate(40deg); */
+     /* transform: scale(2,4); */
+}
+div:hover{
+    background-color: rgb(174, 0, 255); 
+    /* opacity: .5; */
+     /* transform: translate(-100px,50px); */
+     /* transform: translateY(-100px); */
+
+}
+div:active{
+    height: 70px;
+    width: 70px;
+}

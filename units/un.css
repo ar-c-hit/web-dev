@@ -1,0 +1,14 @@
+#d1{
+    height: 100px;
+    width: 200px;
+    background-color: red;
+    font-size: 40px;
+}
+#d2{
+    background-color: blueviolet;
+    height: 50%;
+    width: 50%;
+    margin-left: 25%;
+    font-size: .5em;  
+    /* x em= x*parents font size( if no fontsize is initialli present) */
+}

@@ -1,0 +1,25 @@
+div{
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+}
+/* @media (width : 600px){
+    div{
+        background-color: blue;
+    }
+} */
+/* @media (max-width: 600px){
+    div{
+        background-color: red;
+    }
+} */
+ /* @media (min-width: 500px){
+    div{
+background-color: red;
+    }
+} */
+ @media (min-width: 400px) and (max-width:600px){
+    div{
+        background-color: red;
+    }
+}
